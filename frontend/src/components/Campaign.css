@@ -1,0 +1,34 @@
+
+
+.compaign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.button {
+    
+    padding: 12px;
+    background: linear-gradient(242.23deg, #A0C7FF -17.6%, #448CF2 67.25%);
+    border-radius: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.channels {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.save-campaign {
+    margin-bottom: 10px;
+}

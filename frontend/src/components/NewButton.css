@@ -1,0 +1,42 @@
+.input-area {
+    padding: 10px;
+    width: 350px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #2F2F2F;
+    background: #EAEDF1;
+    border-radius: 11px;
+    /* margin: 10px 0 0 0; */
+    outline: none;
+    border: none;
+}
+
+.add-link {
+    font-family: 'Roboto';
+    color: #448CF2;
+    font-size: 15px;
+    margin-left: 30px;
+    /* display: none; */
+}
+
+.button-link {
+    display: none;
+}
+
+.button-link.show {
+    display: block;
+}
+
+.add-link.hide {
+    display: none;
+}
+
+.button-name {
+    font-family: 'Roboto';
+    color: #2F2F2F;
+    font-size: 18px;
+    margin: 20px 0 -10px 30px;
+}

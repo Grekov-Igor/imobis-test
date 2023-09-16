@@ -1,0 +1,33 @@
+.channel-textarea {
+    font-family: 'Roboto';
+    /* margin-top: 20px; */
+    width: 700px;
+    height: 150px;
+    background: #EAEDF1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+    color: #2F2F2F;
+    resize: none;
+}
+
+.warning {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    margin-left: 30px;
+    color: #e63232;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.warning.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}

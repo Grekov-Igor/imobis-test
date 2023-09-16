@@ -1,0 +1,17 @@
+.list__item {
+    padding: 10px 0 10px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 13px;
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.list__item:hover {
+    background: #e4e6ea;
+    border-radius: 20px;
+}
